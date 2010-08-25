@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, DemoApp!</string>
+	<string name="app_name">DemoApp</string>
+	<string name="app_key">paste your app key here</string>
+	<string name="app_secret">paste your app secret here</string>
+
+</resources>

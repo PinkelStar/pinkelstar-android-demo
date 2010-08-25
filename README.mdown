@@ -1,0 +1,32 @@
+PinkelStar Demo App Instructions
+================================
+
+Before you can start the PinkelStar Android Demo App, there are four things which need to be done:
+
+1. [Download the source](http://github.com/PinkelStar/pinkelstar-android-demo/archives/master) or clone this repository using:
+
+        git clone git://github.com/PinkelStar/pinkelstar-android-demo.git
+
+2. Clone the Android UI project and import it into eclipse
+
+        git clone git@github.com:PinkelStar/pinkelstar-android-ui.git PinkelStarAndroidUI
+
+3. Register a mobile app on PinkelStar (www.pinkelstar.com)
+
+4. Add your key and secret to the `pinkelstar.xml` file in the `res/xml directory`
+
+Please post your questions to the [support forum](http://support.pinkelstar.com) and we will answer ASAP.
+
+Happy Coding,
+
+The PinkelStar Team
+
+
+Side Note:
+
+To enable logging, open a shell using the adb tool and set the logging level to VERBOSE like so `setprop log.tag.PinkelStar VERBOSE`.
+
+Log messages tagged with 'PinkelStar' will be shown in the logcat output.
+
+If you are using eclipse, you can also set `-prop log.tag.PinkelStar=VERBOSE` to the 'additional emulator command line options' field on the 'target' tab of the run configuration of your app.
+
