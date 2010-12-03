@@ -9,7 +9,7 @@ Before you can start the PinkelStar Android Demo App, there are four things whic
 
 2. Clone the Android UI project and import it into eclipse
 
-        git clone git@github.com:PinkelStar/pinkelstar-android-ui.git PinkelStarAndroidUI
+        git clone git@github.com:PinkelStar/pinkelstar-android.git PinkelStarAndroidUI
 
 3. Register a mobile app on PinkelStar (www.pinkelstar.com)
 
