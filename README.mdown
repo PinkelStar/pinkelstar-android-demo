@@ -1,7 +1,7 @@
 PinkelStar Demo App Instructions
 ================================
 
-Assuming you are using Eclipse and you have set up an Android project before*, there are five steps to take in order to run the PinkelStar Android Demo App, 
+Assuming you are using Eclipse and you have set up an Android project before*, there are five steps to take in order to run the PinkelStar Android Demo App:
 
 #### 1. Clone this demo project and the Android UI project in a directory:
     
