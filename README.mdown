@@ -1,19 +1,27 @@
 PinkelStar Demo App Instructions
 ================================
 
-Before you can start the PinkelStar Android Demo App, there are four things which need to be done:
+Assuming you are using Eclipse and you have set up an Android project before*, there are five steps to take in order to run the PinkelStar Android Demo App, 
 
-1. [Download the source](http://github.com/PinkelStar/pinkelstar-android-demo/archives/master) or clone this repository using:
+#### 1. Clone this demo project and the Android UI project in a directory:
+    
+    git clone git://github.com/PinkelStar/pinkelstar-android-demo.git
+    git clone git@github.com:PinkelStar/pinkelstar-android.git PinkelStarAndroidUI
+    
+#### 2. Import the cloned repos 'pinkelstar-android-demo' and 'PinkelStarAndroidUI'  project into Eclipse:
+    
+    File > Import > "Existing Projects into Workspace"
 
-        git clone git://github.com/PinkelStar/pinkelstar-android-demo.git
+#### 3. Register a mobile app on PinkelStar (www.pinkelstar.com)
+    
+    
 
-2. Clone the Android UI project and import it into eclipse
-
-        git clone git@github.com:PinkelStar/pinkelstar-android.git PinkelStarAndroidUI
-
-3. Register a mobile app on PinkelStar (www.pinkelstar.com)
-
-4. Add your key and secret to the `pinkelstar.xml` file in the `res/xml directory`
+#### 4. Add your key and secret to the `pinkelstar.xml` file in the `res/xml directory`:
+    
+    pinkelstar-android-demo > res > xml > pinkelstar.xml
+    
+#### 5. Hit the play button to run the demo
+    
 
 Please post your questions to the [support forum](http://support.pinkelstar.com) and we will answer ASAP.
 
@@ -30,3 +38,5 @@ Log messages tagged with 'PinkelStar' will be shown in the logcat output.
 
 If you are using eclipse, you can also set `-prop log.tag.PinkelStar=VERBOSE` to the 'additional emulator command line options' field on the 'target' tab of the run configuration of your app.
 
+
+(*) If not, follow the instruction provided here: https://gist.github.com/0cd3f1faedfdea686096
