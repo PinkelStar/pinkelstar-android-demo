@@ -12,7 +12,7 @@ Assuming you are using Eclipse and you have set up an Android project before*, t
     
     File > Import > "Existing Projects into Workspace"
 
-#### 3. Register a mobile app on PinkelStar (www.pinkelstar.com)
+#### 3. Register a mobile app on PinkelStar (www.pinkelstar.com) AND also add an icon for your app here (can be changed later)
     
     
 
